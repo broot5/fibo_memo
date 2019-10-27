@@ -32,7 +32,7 @@ fn input_number() -> usize {
         .read_line(&mut input)
         .expect("Failed to read line");
 
-    let input: usize = input.trim().parse().unwrap();
+    let input = input.trim().parse().unwrap();
 
     input
 }
